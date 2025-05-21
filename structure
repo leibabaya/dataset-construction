@@ -1,0 +1,24 @@
+dataset/
+├── images/
+│   ├── train/
+│   │   ├── Dermatopathology/
+│   │   │   ├── hDQWDHAVSqI_db90394e.jpg  # 原始图片
+│   │   │   └── ...
+│   │   ├── Hematopathology/
+│   │   └── Soft_tissue/
+│   └── test/
+│       ├── Dermatopathology/
+│       └── ...
+├── texts/
+│   ├── train/
+│   │   ├── Dermatopathology/
+│   │   │   ├── hDQWDHAVSqI_db90394e.txt  # 内容为corrected_text
+│   │   │   └── ...
+│   │   ├── Hematopathology/
+│   │   └── Soft_tissue/
+│   └── test/
+│       ├── Dermatopathology/
+│       └── ...
+└── metadata/
+    ├── train_metadata.csv
+    └── test_metadata.csv
